@@ -14,7 +14,6 @@ let contrasenia = prompt("Ingresa tu contraseña");
 //Menú
 function captura () {
     let opcion = parseInt (prompt("Seleccione una opción:\n 1- Sacar turno\n 2- Ver calendario\n 3- Salir "));
-    let menu;
     while (opcion != 3 ) {
         switch (opcion) {
             case 1:
